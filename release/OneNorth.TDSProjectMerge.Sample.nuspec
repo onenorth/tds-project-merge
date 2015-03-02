@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>OneNorth.TDSProjectMerge.Sample</id>
+    <version>0.0.1</version>
+    <title />
+    <authors>One North</authors>
+    <description>Sample TDS Project Merge .nuspec file</description>
+    <projectUrl>https://github.com/onenorth/tds-project-merge</projectUrl>
+  </metadata>
+  <files>
+    <file src="install.ps1" target="tools" />
+    <file src="OneNorth.TDSProjectMerge.dll" target="tools" />
+    <file src="..\Web\App_Config\**\*" target="content\App_Config\" />
+    <file src="..\TDS.Master\sitecore\**\*" target="TDS.Master\sitecore" />
+    <file src="..\TDS.Master\*.scproj" target="TDS.Master" />
+    <file src="..\TDS.Core\sitecore\**\*" target="TDS.Core\sitecore" />
+    <file src="..\TDS.Core\*.scproj" target="TDS.Core" />
+  </files>
+</package>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{700B8E3E-3087-47BC-B2D5-C0D99C8288B9}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Master", "TDS.Master\TDS.Master.scproj", "{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700B8E3E-3087-47BC-B2D5-C0D99C8288B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700B8E3E-3087-47BC-B2D5-C0D99C8288B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700B8E3E-3087-47BC-B2D5-C0D99C8288B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700B8E3E-3087-47BC-B2D5-C0D99C8288B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823CE612-4FDD-4ED6-9ACC-29AF8AC346C6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

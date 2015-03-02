@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {B84D14ED-2416-45D9-8542-2B5FC9B39F51}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Field Rules/External/Vanity Path Validator
+parent: {D46F5771-1662-4CFF-9684-804C35DDEA3C}
+name: Vanity Path Validator
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 107
+
+OneNorth.SitecoreVanityUrlModule.Validation.UniqueVanityUrlPathValidation ,OneNorth.SitecoreVanityUrlModule
+----version----
+language: en
+version: 1
+revision: 6017adac-4c27-413d-b06c-13ff1a81e191
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 57
+
+Verify that the vanity url paths are unique within a site
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 57
+
+Verify that the vanity url paths are unique within a site
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121220T161405
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6017adac-4c27-413d-b06c-13ff1a81e191
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121220T161524:634916169241186406
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

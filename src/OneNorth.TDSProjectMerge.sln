@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNorth.TDSProjectMerge", "OneNorth.TDSProjectMerge\OneNorth.TDSProjectMerge.csproj", "{CC485872-D510-4550-B34A-534AED96661C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNorth.TDSProjectMerge.Test", "OneNorth.TDSProjectMerge.Test\OneNorth.TDSProjectMerge.Test.csproj", "{641C43BD-893E-4C35-A29D-E202CF459403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC485872-D510-4550-B34A-534AED96661C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC485872-D510-4550-B34A-534AED96661C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC485872-D510-4550-B34A-534AED96661C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC485872-D510-4550-B34A-534AED96661C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641C43BD-893E-4C35-A29D-E202CF459403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641C43BD-893E-4C35-A29D-E202CF459403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641C43BD-893E-4C35-A29D-E202CF459403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641C43BD-893E-4C35-A29D-E202CF459403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
